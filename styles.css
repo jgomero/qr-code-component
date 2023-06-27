@@ -1,0 +1,56 @@
+body {
+  font-family: 'Caveat', cursive;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.qr-container {
+  text-align: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  padding: 10px;
+  height: auto;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 3%;
+}
+
+.main-title {
+  flex-basis: 200px;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bolder;
+  color: hsl(218, 44%, 22%);
+  margin-top: 10px;
+}
+.second-title {
+  flex-basis: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 10px;
+  color: hsl(220, 15%, 55%);
+}
+
+@media (max-width: 375px) {
+  .qr-container {
+    margin-bottom: 350px;
+  }
+}
